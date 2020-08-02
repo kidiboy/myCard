@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Mada&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			font-family: 'Mada', sans-serif;
+		}
+		.background {
+			background: rgb(122,12,195);
+			background: linear-gradient(90deg, rgba(122,12,195,1) 0%, rgba(71,119,255,1) 50%, rgba(219,100,198,1) 100%);
+			
+		}
+		.profile {
+			width: 400px;
+			margin: 0 auto;
+			margin-top: 12%;
+		}
+		.my-photo {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			object-fit: cover;
+			object-position: 36% 40%;
+		}
+		.profile-photo {
+			display: flex;
+			justify-content: center;
+		}
+		.my-name {
+			display: flex;
+			justify-content: center;
+			margin-top: 3%;
+			font-size: 50px;
+			letter-spacing: 2.5px;
+			color: white;
+			line-height: 50px;
+		}
+		.prof-line {
+			border-bottom: 2px solid white;
+			opacity: .5;
+			margin-top: 3%;
+			margin-bottom: 3%;
+		}
+		.social {
+			display: flex;
+			justify-content: center;
+			/*margin-top: 2%;*/
+		}
+		.social-svg {
+			width: 30px;
+			opacity: .3;
+		}
+		.social-svg:hover {
+			cursor: pointer;
+			opacity: .8;
+			transition-duration: .5s;
+			transition-timing-function: ease-in-out;
+		}
+		.margin-left20 {
+			margin-left: 20px;
+		}
+	</style>
+   <title>!DOCTYPE</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body class="background">
+	<div class="profile">
+		<div class="profile-photo">
+			<img class="my-photo" src="./img/my.jpg">
+		</div>
+		<div class="my-name">
+			Kirill Ilyin
+		</div>
+		<div class="prof-line"></div>
+		<div class="social">
+			<a href="https://twitter.com/black_alastor" target="_blank"><img class="social-svg" title="Twitter" src="./assets/twitter.svg"></a>
+			<a href="https://t.me/dark_alastor" target="_blank"><img class="social-svg margin-left20" Title="Telegram" src="./assets/telegram.svg"></a>
+			<a href="https://vk.com/k_ilin" target="_blank"><img class="social-svg margin-left20" Title="VK" src="./assets/vk.svg"></a>
+		</div>
+	</div>
+</body>
+</html>
